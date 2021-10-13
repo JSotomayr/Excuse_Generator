@@ -1,1 +1,8 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: auto;
+}
+.container-fluid-text-center {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}

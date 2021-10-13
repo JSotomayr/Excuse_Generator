@@ -1,8 +1,6 @@
-/* eslint-disable */
-import "/workspace/vanillajs-hello/src/style.css";
+import "./style.css";
 
 window.onload = () => {
-  //write your code here
   document.querySelector("#btn").addEventListener("click", () => {
     document.querySelector("#the-excuse").innerHTML = generateExcuse();
   });
